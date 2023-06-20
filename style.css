@@ -357,6 +357,18 @@ input{
     margin-top:10px;
     background:linear-gradient(45deg, #ff55dc,#ff7f6a);
     border:1px solid #ff2b4a;
+        animation:anim 5s ease-in infinite;
+    transition-duration:1s;
+   } 
+@keyframes anim{
+    0%
+    {background:linear-gradient(45deg, #ff55dc,#ff7f6a);}
+    25%
+    {background:linear-gradient(45deg, #00ff6c,#40a1ff);}
+    75%
+    {background:linear-gradient(45deg, #512bff,#ff55dc);}
+    100%
+    {background:linear-gradient(45deg, #ffd215,#ff2b5f);}    
     
     
 }
@@ -376,7 +388,7 @@ input{
 .snd{
     margin-top:20px;
     height: 40px;
-    width: 100px;
+    width: 150px;
 }
 h4{
     font-size:20px;
